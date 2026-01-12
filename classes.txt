@@ -1,0 +1,3 @@
+awake
+sleeping
+sunglass_detected
