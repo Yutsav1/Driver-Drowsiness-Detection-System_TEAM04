@@ -141,7 +141,7 @@ Each image has a corresponding YOLO-format label file.
 - Optimizer: YOLO default
 
 **Training Script:**
-```python
+
 from ultralytics import YOLO
 
 model = YOLO("yolo11n.pt")
@@ -151,6 +151,7 @@ model.train(
     imgsz=640,
     batch=16
 )
+
 10. Evaluation and Results
 10.1 Quantitative Metrics
 
